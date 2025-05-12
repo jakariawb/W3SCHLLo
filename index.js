@@ -37,3 +37,19 @@ var b1 = true;
 var b2 = false;
 
 console.log(b1,b2);
+
+// echo "# W3SCHLLo" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/jakariawb/W3SCHLLo.git
+// git push -u origin ma
+
+console.log('')
+console.log(Boolean('no'));
+
+console.log(Boolean(null));
+console.log(Boolean(undefined));
+console.log(Boolean(0))
+console.log(Boolean(233))
