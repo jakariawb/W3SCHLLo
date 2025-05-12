@@ -63,5 +63,51 @@ console.log(n.toString());
 var  hex = 0xff;
 console.log(hex);
 // octal
-var oct = 0756; 
-console.log(oct)
+// var oct = 0756; 
+// console.log(oct);
+var a = 21;
+var b = 2;
+console.log(a % b);
+console.log(a / b);
+
+var postIncrementalNumber = 22;
+console.log(postIncrementalNumber++);
+console.log(postIncrementalNumber);
+var preIncrementalNumber = 22;
+console.log(++preIncrementalNumber) ;
+
+// assignment operator 
+var t = 20;
+var r = 10;
+
+t += r
+console.log(t)
+
+t -= r
+console.log(t)
+
+t*=r;
+console.log(t);
+
+t %= r;
+console.log(t)
+
+t /= r;
+console.log(t)
+
+
+var t = 10;
+var r = 20;
+sum = t + r;
+console.log(sum)
+console.log("Yes " + t > r); //true
+console.log("No "+ t < r);
+console.log("Yes " + t >= r); //true
+console.log("No "+ t <= r);
+// compariosn operators
+
+var a = 10;
+var b = 20;
+console.log(a != b);//true
+
+console.log(a == b);//false
