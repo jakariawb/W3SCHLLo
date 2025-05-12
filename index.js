@@ -44,12 +44,24 @@ console.log(b1,b2);
 // git commit -m "first commit"
 // git branch -M main
 // git remote add origin https://github.com/jakariawb/W3SCHLLo.git
-// git push -u origin ma
+//     git push --set-upstream origin main ma
 
 console.log('')
 console.log(Boolean('no'));
 
 console.log(Boolean(null));
 console.log(Boolean(undefined));
-console.log(Boolean(0))
-console.log(Boolean(233))
+console.log(Boolean(0));
+console.log(Boolean(233));
+console.log(true)
+
+var n = true;
+
+console.log(n.toString());
+
+// hexadecimal and octal
+var  hex = 0xff;
+console.log(hex);
+// octal
+var oct = 0756; 
+console.log(oct)
