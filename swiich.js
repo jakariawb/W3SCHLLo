@@ -28,3 +28,22 @@ switch (today) {
     default:
         console.log("Not a number")
 }
+
+var job = true;
+var saliry = 31
+var bcs = true
+
+if (job && saliry > 30 && bcs){
+    console.log("ami bay korbo")
+}else{
+    console.log("na tui amir na")
+}
+
+var result = 10;
+var number = 999;
+var gpa = 4.75;
+if (result < 11 || number < 1000 || gpa < 5){
+    console.log("aso bow kobule")
+}else{
+    console.log("bage tui mokbul")
+}
