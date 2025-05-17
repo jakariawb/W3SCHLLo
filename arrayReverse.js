@@ -16,3 +16,15 @@ console.log(arr2)
 
 var  arr3 = [1,2,3,4,5,6,7,8];
 console.log(arr3.reverse())
+// array methods
+
+var methods = [1,2,3,4,5]
+console.log(methods.join(' $ '))
+// coll methods
+methods.fill(true)
+console.log(methods)
+
+var concats = [1,2,3,4,5] 
+// var concats2 = [1,2,3,4,5];
+var concats3 = Array.from(concats);
+console.log(concats3);
