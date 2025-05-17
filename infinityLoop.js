@@ -11,6 +11,7 @@ for(; ;){
     var rend = Math.floor(Math.random() * 20 + 1);
     if(rend === 19){
         console.log("number 2")
+
         break
     }else{
         console.log("amir number " + rend)
