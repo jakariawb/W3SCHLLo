@@ -22,6 +22,6 @@ console.log(obj1)
 console.log(obj2)
 
 var ovj3 = Object.assign({ }, obj1)
-obj2.j = 299
+obj2.j = 299;// object এর বেতর নতুণ একটা ভেলু অ্যাড করা হল
 console.log(obj1);
 console.log(obj2)

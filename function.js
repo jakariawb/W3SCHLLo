@@ -74,6 +74,9 @@ parameter2(10,33)
     console.log(sum)
  }
  Number(1,23,4,2)
+
+
+ 
 var arr = [1,3,4,5]
 var arr1 = [3,3]
 var arr2 = [20,30]
